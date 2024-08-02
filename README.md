@@ -9,12 +9,12 @@ NoteBook : Google Colab
 
 Dataset Source : Provided by Almabetter themself.
 
-Objective
+Objective<br>
 We are provided with a hotel bookings dataset.
 
 The main purpose of this study is to perform EDA on the given dataset and draw useful conclusions about the trends in hotel bookings and how factors that control hotel bookings influence each other.
 
-Dataset
+Dataset<br>
 We are given a hotel bookings dataset. This dataset contains booking information for a city hotel and a resort hotel. It contains the following features.
 
 - hotel: Name of hotel ( City or Resort)
@@ -49,26 +49,33 @@ We are given a hotel bookings dataset. This dataset contains booking information
 - total_of_special_requests: total no. of special request.
 - reservation_status: Whether a customer has checked out or canceled,or not showed 
 - reservation_status_date: Date of making reservation status.
+  
 Total number of rows in data: 119390
 Total number of columns: 32
-Data Cleaning and Feature Engineering
+
+Data Cleaning and Feature Engineering<br>
 (1) Handling null values
 Null values in columns company and agent were replaced by 0.
 Null values in column country were replaced by 'others'.
 Null values in column children were replaced by the mean of the column.
+
 (2) Removing Duplicate rows
 All duplicate rows were dropped.
 
 (3) Converting columns to appropriate data types
 Changed data type of children, company, agent to int type.
+
 (4) Renaming the columns
 The adr column was renamed for better understanding to average_daily_rate
+
 (4) Removing outliers
 One outlier was found in the average_daily_rate column. Dropping them.
+
 (5) Creating new columns
 Creating new column Total_stay by adding stays_in_weekend_nights+stays_in_week_nights.
 Creating new column Total_members by adding adults+children+babies.
-Exploratory Data Analysis
+
+Exploratory Data Analysis<br>
 Performed EDA and tried answering the following questions:
 
  Q1) Which hotel has more no of bookings and What is the  percentage of bookings in each hotel ?
@@ -88,15 +95,16 @@ Performed EDA and tried answering the following questions:
  Q16) Chances that its customer will return for another stay?
  Q17) Which types of customers mostly make bookings?
  Q18) How many customers are most likely to require a parking space?
+ 
 Mainly performed using Matplotlib and Seaborn library and the following graph and plots had been used:
+1) Bar Plot.
+2) Scatter Plot.
+3) Pie Chart.
+4) Line Plot.
+5) Heatmap.
+6) Box Plot
 
-Bar Plot.
-Scatter Plot.
-Pie Chart.
-Line Plot.
-Heatmap.
-Box Plot
-Analysis:
+Analysis:<br>
 Performed analysis and made following conclusions:
 
  1.) 61% bookings are for City hotel and 39% bookings are for Resort hotel, therefore City Hotel is busier than Resort hotel. 
@@ -112,7 +120,8 @@ Performed analysis and made following conclusions:
  11.) Both hotels have very small percentage that customer will repeat.
  12.) Arrivals in hotels increases at weekends and also the average daily rate tends to go up as month ends. 
  13.) Moslty bookings are done by couples(bookings have two adults.)
-Conclusion
+ 
+Conclusion<br>
 (1) 61% bookings are for City hotel and 39% bookings are for Resort hotel, therefore City Hotel is busier than Resort hotel. Also the overall average daily rate of City hotel is slightly higher than Resort hotel.
 (2) Mostly guests stay for less than 5 days in hotel and for longer stays Resort hotel is preferred.
 (3) Most of the guests came from european countries, with most of guests coming from Portugal.
