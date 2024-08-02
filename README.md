@@ -78,23 +78,23 @@ Creating new column Total_members by adding adults+children+babies.
 Exploratory Data Analysis<br>
 Performed EDA and tried answering the following questions:
 
- Q1) Which hotel has more no of bookings and What is the  percentage of bookings in each hotel ?
- Q2) Hotel Wise Bookings based on Month and year also What is the trend of bookings within a month ?
- Q3) Which meal type is the  most preffered meal of customers ?
- Q4) Country Wise - Number of Bookings ?
- Q5) Which agent is making maximum Bookings ?
- Q6) Which room type is in most demand and which room type generates the  highest average daily rate?
- Q8) How long do people stay at the hotels?
- Q9) What is preferred stay length in each hotel based on weekday nights and weekend nights ?
- Q10) Which Booking is preffered with the deposite type?
- Q11) Cancellation rates in both the hotels also arival year and  lead time?
- Q12) What is the Average daily rate month wise also which are the most busy months??
- Q13) What is the Average daily rate with respect to per person?
- Q14) Is thier any Special request given by the customer to hotels?
- Q15) Which channel is mostly used for the booking of hotels? 
- Q16) Chances that its customer will return for another stay?
- Q17) Which types of customers mostly make bookings?
- Q18) How many customers are most likely to require a parking space?
+ Q1) Which hotel has more no of bookings and What is the  percentage of bookings in each hotel ?<br>
+ Q2) Hotel Wise Bookings based on Month and year also What is the trend of bookings within a month ?<br>
+ Q3) Which meal type is the  most preffered meal of customers ?<br>
+ Q4) Country Wise - Number of Bookings ?<br>
+ Q5) Which agent is making maximum Bookings ?<br>
+ Q6) Which room type is in most demand and which room type generates the  highest average daily rate?<br>
+ Q8) How long do people stay at the hotels?<br>
+ Q9) What is preferred stay length in each hotel based on weekday nights and weekend nights ?<br>
+ Q10) Which Booking is preffered with the deposite type?<br>
+ Q11) Cancellation rates in both the hotels also arival year and  lead time?<br>
+ Q12) What is the Average daily rate month wise also which are the most busy months??<br>
+ Q13) What is the Average daily rate with respect to per person?<br>
+ Q14) Is thier any Special request given by the customer to hotels?<br>
+ Q15) Which channel is mostly used for the booking of hotels? <br>
+ Q16) Chances that its customer will return for another stay?<br>
+ Q17) Which types of customers mostly make bookings?<br>
+ Q18) How many customers are most likely to require a parking space?<br>
  
 Mainly performed using Matplotlib and Seaborn library and the following graph and plots had been used:
 1) Bar Plot.
@@ -133,8 +133,9 @@ Conclusion<br>
 (9) For customers, generally the longer stays (more than 15 days) can result in better deals in terms of low average daily rate.<br>
 (10) November, December, January and February are the months which has least bookings so in this periods you can get rooms with less average daily rate.<br>
 And many more conclusion
-Challenges
-(1) Lot of null values were present in the dataset.
-(2) Data type of some Data was in wrong format.
-(3) Lot of duplicate data.
-(4) Which visualization techniques to use was a challenge?
+
+Challenges<br>
+(1) Lot of null values were present in the dataset.<br>
+(2) Data type of some Data was in wrong format.<br>
+(3) Lot of duplicate data.<br>
+(4) Which visualization techniques to use was a challenge?<br>
