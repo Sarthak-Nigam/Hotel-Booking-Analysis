@@ -1,4 +1,4 @@
-**Hotel-Booking-Analysis**<br>
+<h1>Hotel-Booking-Analysis</h1><br>
 The project contains the real world data record of hotel bookings of a city and a resort hotel containing details like bookings, cancellations, guest details etc. from 2015 to 2017. In this project we are going to analyze Hotel Booking Data in order to find out valuable insights and give suggestions to increase revenue of hotels.<br>
 
 Programming Language : Python
@@ -9,12 +9,12 @@ NoteBook : Google Colab
 
 Dataset Source : Provided by Almabetter themself.
 
-Objective<br>
+<h2>Objective</h2><br>
 We are provided with a hotel bookings dataset.
 
 The main purpose of this study is to perform EDA on the given dataset and draw useful conclusions about the trends in hotel bookings and how factors that control hotel bookings influence each other.
 
-Dataset<br>
+<h2>Dataset</h2><br>
 We are given a hotel bookings dataset. This dataset contains booking information for a city hotel and a resort hotel. It contains the following features.
 
 - hotel: Name of hotel ( City or Resort)
@@ -53,7 +53,7 @@ We are given a hotel bookings dataset. This dataset contains booking information
 Total number of rows in data: 119390
 Total number of columns: 32
 
-Data Cleaning and Feature Engineering<br>
+<h2>Data Cleaning and Feature Engineering</h2><br>
 (1) Handling null values
 Null values in columns company and agent were replaced by 0.
 Null values in column country were replaced by 'others'.
@@ -75,7 +75,7 @@ One outlier was found in the average_daily_rate column. Dropping them.
 Creating new column Total_stay by adding stays_in_weekend_nights+stays_in_week_nights.
 Creating new column Total_members by adding adults+children+babies.
 
-Exploratory Data Analysis<br>
+<h2>Exploratory Data Analysis</h2><br>
 Performed EDA and tried answering the following questions:
 
  Q1) Which hotel has more no of bookings and What is the  percentage of bookings in each hotel ?<br>
@@ -104,7 +104,7 @@ Mainly performed using Matplotlib and Seaborn library and the following graph an
 5) Heatmap.
 6) Box Plot
 
-Analysis:<br>
+<h2>Analysis:</h2><br>
 Performed analysis and made following conclusions:
 
  1.) 61% bookings are for City hotel and 39% bookings are for Resort hotel, therefore City Hotel is busier than Resort hotel. <br>
@@ -121,7 +121,7 @@ Performed analysis and made following conclusions:
  12.) Arrivals in hotels increases at weekends and also the average daily rate tends to go up as month ends. <br>
  13.) Moslty bookings are done by couples(bookings have two adults.)<br>
  
-Conclusion<br>
+<h2>Conclusion</h2><br>
 (1) 61% bookings are for City hotel and 39% bookings are for Resort hotel, therefore City Hotel is busier than Resort hotel. Also the overall average daily rate of City hotel is slightly higher than Resort hotel.<br>
 (2) Mostly guests stay for less than 5 days in hotel and for longer stays Resort hotel is preferred.<br>
 (3) Most of the guests came from european countries, with most of guests coming from Portugal.<br>
