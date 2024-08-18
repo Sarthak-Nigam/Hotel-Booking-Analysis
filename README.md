@@ -50,7 +50,7 @@ We are given a hotel bookings dataset. This dataset contains booking information
 - reservation_status: Whether a customer has checked out or canceled,or not showed 
 - reservation_status_date: Date of making reservation status.
   
-Total number of rows in data: 119390
+Total number of rows in data: 119390<br>
 Total number of columns: 32
 
 <h2>Data Cleaning and Feature Engineering</h2><br>
