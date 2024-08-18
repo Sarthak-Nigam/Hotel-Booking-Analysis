@@ -134,7 +134,7 @@ Performed analysis and made following conclusions:
 (10) November, December, January and February are the months which has least bookings so in this periods you can get rooms with less average daily rate.<br>
 And many more conclusion
 
-Challenges<br>
+<h2>Challenges</h2><br>
 (1) Lot of null values were present in the dataset.<br>
 (2) Data type of some Data was in wrong format.<br>
 (3) Lot of duplicate data.<br>
